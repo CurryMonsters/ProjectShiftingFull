@@ -243,10 +243,6 @@ p{
         height: 50vh;
 
     }
-
-    #header-hero-container{
-        background-image: none;
-    }
 }
 
 @media (max-width: 767px){
@@ -259,15 +255,15 @@ p{
         margin-top: 4em;
     }
 
-    /* #header-hero-container{
+    #header-hero-container{
         background-image: url(images/ExplosionRight.png);
         background-position: bottom;
-        background-size: cover;
-    } */
-
-    #header-hero-container .landing img{
-        height: 70vh;
+        background-size: contain;
     }
+
+    /* #header-hero-container .landing img{
+        height: 70vh;
+    } */
 }
 
 @media (max-width: 500px){
@@ -300,9 +296,9 @@ p{
         font-size: 1.5rem;
     }
 
-    #header-hero-container .landing img{
+    /* #header-hero-container .landing img{
         height: 30vh;
-    }
+    } */
 }
 /* showtime */
 #showtime{
