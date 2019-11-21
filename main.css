@@ -177,7 +177,8 @@ p{
 
     #header-hero-container .landing{
         width: 40%;
-        margin-top: 20em;
+        /* margin-top: 20em; */
+        margin-top: 7vh;
     }
 
     #header-hero-container{
