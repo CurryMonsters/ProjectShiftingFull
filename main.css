@@ -264,6 +264,10 @@ p{
         background-position: bottom;
         background-size: cover;
     } */
+
+    #header-hero-container .landing img{
+        height: 70vh;
+    }
 }
 
 @media (max-width: 500px){
@@ -279,9 +283,7 @@ p{
     #header-hero-container .landing h1{
         font-size: 2.5rem;
     }
-    #header-hero-container .landing img{
-        height: 70vh;
-    }
+
 }
 
 @media (max-width: 450px){
