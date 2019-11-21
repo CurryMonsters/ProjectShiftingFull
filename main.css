@@ -235,7 +235,7 @@ p{
     }
 
     #header-hero-container .landing h1{
-        font-size: 0.4rem;
+        font-size: 2rem;
     }
     #header-hero-container{
         background-size: 100%;
@@ -250,7 +250,7 @@ p{
     }
 
     #header-hero-container .landing h1{
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 }
 /* showtime */
