@@ -225,9 +225,9 @@ p{
 }
 
 @media (max-width: 500px){
-    /* #header-hero-container{
+    #header-hero-container{
         background-color: green;
-    } */
+    }
 
     #header-hero-container .landing{
         width: 100%;
@@ -235,7 +235,7 @@ p{
     }
 
     #header-hero-container .landing h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     #header-hero-container{
         background-size: 100%;
@@ -244,6 +244,9 @@ p{
 
 @media (max-width: 450px){
 
+    #header-hero-container{
+        background-color: orange;
+    }
     #header-hero-container .landing{
         width: 90%;
         margin-top: 4em;
@@ -520,8 +523,8 @@ p{
 
 
 #vlog{
-    margin: 0rem 0 0rem;
-    padding: 0 0 0rem;
+    /* margin: 0rem 0 0rem;
+    padding: 0 0 0rem; */
     border-bottom: 1px solid #ccc;
     background-color: #fce38a;
     width: 100%;
@@ -582,16 +585,34 @@ p{
     text-align: center;
 }
 
-@media(max-width: 761px){
-    
+@media(max-width: 991px){
+
+    #vlog .card iframe{
+        height: 300px;
+        margin-top: 1rem;
+        width: 90%;
+    }
+
     #vlog .card{
         width: 100%;
+        height: 10%;
+    }
+}
+/* @media(max-width: 761px){
+
+    #vlog{
+        width: 100%;
+    }
+    
+    #vlog .card{
+        width: 50%;
+        padding: 0 3rem 0 0;
     }
 }
 
 @media(max-width: 500px){
     #vlog {
-        /* margin: 4rem 0 3rem; */
+        margin: 4rem 0 3rem;
         padding: 0 0 3rem;
     }
 
@@ -602,7 +623,7 @@ p{
     #vlog p.large-paragraph {
         width: 100%;
     }
-}
+} */
 
 /* sponsor */
 
