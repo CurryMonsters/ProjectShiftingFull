@@ -279,9 +279,9 @@ p{
     #header-hero-container .landing h1{
         font-size: 2.5rem;
     }
-    /* #header-hero-container{
-        background-size: 100%;
-    } */
+    #header-hero-container .landing img{
+        height: 70vh;
+    }
 }
 
 @media (max-width: 450px){
