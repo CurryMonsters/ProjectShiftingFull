@@ -598,6 +598,15 @@ p{
         height: 10%;
     }
 }
+
+@media(max-width: 500px){
+
+    #vlog .card iframe{
+        height: 50%;
+        margin-top: 1rem;
+        width: 90%;
+    }
+}
 /* @media(max-width: 761px){
 
     #vlog{
